@@ -8,10 +8,11 @@
  * Controller of the r4chackApp
  */
 angular.module('r4chackApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope) {
+    $scope.appName = 'Reach for change hack';
+    $scope.startGame = function() {
+      console.log('START');
+      $scope.appName = 'AKos';
+      this.route = '/game';
+    };
   });

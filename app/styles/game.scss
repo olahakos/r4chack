@@ -1,0 +1,15 @@
+#game-container{
+  .answer-cnt{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .answer{
+    height: 100px;
+  }
+  .question-box div{
+    margin: 20px auto;
+    height: 200px;
+  }
+}
